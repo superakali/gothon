@@ -60,3 +60,25 @@ class CentralCorridor(Scene):
 			print "you are dead. Then he eats you."
 			return 'death'
 		
+		elif action == "dodge!":
+			print "Like a world class boxer you dodge, weave, slip and slide right"
+			print "as the Gothon's blaster cranks a laser past your head."
+			print "In the middle of your artful dodge your foot slips and you"
+			print "bang your head on the metal wall and pass out."
+			print "You wake up shortly after only to die as the Gothon stomps on"
+			print "your head and eats you."
+			print 'death'
+		
+		elif action == "tell a joke":
+			print "Lucky for you they made you learn Gothon insults in the academy."
+			print "as the Gothon's blaster cranks a laser past your head."
+			print "In the middle of your artful dodge your foot slips and you"
+			print "bang your head on the metal wall and pass out."
+			print "You wake up shortly after only to die as the Gothon stomps on"
+			print "your head and eats you."
+			return 'death'
+		
+		else:
+			print "DOES NOT COMPUTE!"
+			return 'central_corridor'
+			
