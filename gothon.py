@@ -51,8 +51,6 @@ class CentralCorridor(Scene):
 		if action == "shoot!":
 			print "Quick on the draw you yan out your blaster and fire it at the Gothon."
 			print "His clown costume is flowing and moving around his body, which throws"
-			print "off your aim. Your laster hits his costume but misses him entirely. This"
-			print "completely ruins his brand new costume his mother bought him, which"
 			print "makes him fly into a rage and blast you repeatedly in the face until"
 			print "you are dead. Then he eats you."
 			return 'death'
